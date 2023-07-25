@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct NevermindApp: App {
+    @ObservedObject var rootModel = RootModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(rootModel: rootModel)
         }
     }
 }

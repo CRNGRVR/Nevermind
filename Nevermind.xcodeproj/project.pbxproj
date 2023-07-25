@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3601362A7041B600A2F5F8 /* RootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3601352A7041B600A2F5F8 /* RootModel.swift */; };
+		2C3601382A7041C300A2F5F8 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3601372A7041C300A2F5F8 /* Screens.swift */; };
 		2CF185B02A703C130049DD41 /* NevermindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185AF2A703C130049DD41 /* NevermindApp.swift */; };
-		2CF185B22A703C130049DD41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185B12A703C130049DD41 /* ContentView.swift */; };
+		2CF185B22A703C130049DD41 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185B12A703C130049DD41 /* RootView.swift */; };
 		2CF185B42A703C150049DD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF185B32A703C150049DD41 /* Assets.xcassets */; };
 		2CF185B72A703C150049DD41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF185B62A703C150049DD41 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C3601352A7041B600A2F5F8 /* RootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModel.swift; sourceTree = "<group>"; };
+		2C3601372A7041C300A2F5F8 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
 		2CF185AC2A703C130049DD41 /* Nevermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nevermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF185AF2A703C130049DD41 /* NevermindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermindApp.swift; sourceTree = "<group>"; };
-		2CF185B12A703C130049DD41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CF185B12A703C130049DD41 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		2CF185B32A703C150049DD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF185B62A703C150049DD41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +36,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3601332A70409D00A2F5F8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2CF185AF2A703C130049DD41 /* NevermindApp.swift */,
+				2C3601352A7041B600A2F5F8 /* RootModel.swift */,
+				2CF185B12A703C130049DD41 /* RootView.swift */,
+				2C3601372A7041C300A2F5F8 /* Screens.swift */,
+				2CF185B32A703C150049DD41 /* Assets.xcassets */,
+				2C3601392A7042D400A2F5F8 /* Components */,
+				2CF185B52A703C150049DD41 /* Preview Content */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2C3601342A7040AA00A2F5F8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2C3601392A7042D400A2F5F8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		2CF185A32A703C130049DD41 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +83,8 @@
 		2CF185AE2A703C130049DD41 /* Nevermind */ = {
 			isa = PBXGroup;
 			children = (
-				2CF185AF2A703C130049DD41 /* NevermindApp.swift */,
-				2CF185B12A703C130049DD41 /* ContentView.swift */,
-				2CF185B32A703C150049DD41 /* Assets.xcassets */,
-				2CF185B52A703C150049DD41 /* Preview Content */,
+				2C3601342A7040AA00A2F5F8 /* Features */,
+				2C3601332A70409D00A2F5F8 /* Common */,
 			);
 			path = Nevermind;
 			sourceTree = "<group>";
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF185B22A703C130049DD41 /* ContentView.swift in Sources */,
+				2C3601362A7041B600A2F5F8 /* RootModel.swift in Sources */,
+				2CF185B22A703C130049DD41 /* RootView.swift in Sources */,
 				2CF185B02A703C130049DD41 /* NevermindApp.swift in Sources */,
+				2C3601382A7041C300A2F5F8 /* Screens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +298,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Nevermind/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Nevermind/Common/Preview Content\"";
+				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +327,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Nevermind/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Nevermind/Common/Preview Content\"";
+				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
