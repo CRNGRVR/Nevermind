@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0B4D852A7576DC005BD5E2 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D7F2A7576DC005BD5E2 /* Montserrat-Regular.ttf */; };
+		2C0B4D862A7576DC005BD5E2 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D802A7576DC005BD5E2 /* Montserrat-Bold.ttf */; };
+		2C0B4D872A7576DC005BD5E2 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D812A7576DC005BD5E2 /* Montserrat-SemiBold.ttf */; };
+		2C0B4D882A7576DC005BD5E2 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D822A7576DC005BD5E2 /* Montserrat-Light.ttf */; };
+		2C0B4D892A7576DC005BD5E2 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D832A7576DC005BD5E2 /* Montserrat-ExtraLight.ttf */; };
+		2C0B4D8A2A7576DC005BD5E2 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D842A7576DC005BD5E2 /* Montserrat-Medium.ttf */; };
+		2C0B4D8C2A7576F5005BD5E2 /* FontEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B4D8B2A7576F5005BD5E2 /* FontEnum.swift */; };
+		2C0B4D902A757E3B005BD5E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B4D8F2A757E3B005BD5E2 /* LoginView.swift */; };
+		2C0B4D922A757E4B005BD5E2 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B4D912A757E4B005BD5E2 /* LoginModel.swift */; };
+		2C0B4D942A757ECA005BD5E2 /* Button_Yellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B4D932A757ECA005BD5E2 /* Button_Yellow.swift */; };
 		2C3601362A7041B600A2F5F8 /* RootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3601352A7041B600A2F5F8 /* RootModel.swift */; };
 		2C3601382A7041C300A2F5F8 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3601372A7041C300A2F5F8 /* Screens.swift */; };
+		2C69B7CF2A75826E000224D9 /* TF_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69B7CE2A75826E000224D9 /* TF_Login.swift */; };
+		2CB4EFBD2A713483002834BD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4EFBC2A713483002834BD /* Launch Screen.storyboard */; };
 		2CF185B02A703C130049DD41 /* NevermindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185AF2A703C130049DD41 /* NevermindApp.swift */; };
 		2CF185B22A703C130049DD41 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185B12A703C130049DD41 /* RootView.swift */; };
 		2CF185B42A703C150049DD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF185B32A703C150049DD41 /* Assets.xcassets */; };
@@ -16,8 +28,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0B4D7F2A7576DC005BD5E2 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2C0B4D802A7576DC005BD5E2 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2C0B4D812A7576DC005BD5E2 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		2C0B4D822A7576DC005BD5E2 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		2C0B4D832A7576DC005BD5E2 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2C0B4D842A7576DC005BD5E2 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		2C0B4D8B2A7576F5005BD5E2 /* FontEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnum.swift; sourceTree = "<group>"; };
+		2C0B4D8D2A7577D3005BD5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0B4D8F2A757E3B005BD5E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2C0B4D912A757E4B005BD5E2 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		2C0B4D932A757ECA005BD5E2 /* Button_Yellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Yellow.swift; sourceTree = "<group>"; };
 		2C3601352A7041B600A2F5F8 /* RootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModel.swift; sourceTree = "<group>"; };
 		2C3601372A7041C300A2F5F8 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		2C69B7CE2A75826E000224D9 /* TF_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TF_Login.swift; sourceTree = "<group>"; };
+		2CB4EFBC2A713483002834BD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2CF185AC2A703C130049DD41 /* Nevermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nevermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF185AF2A703C130049DD41 /* NevermindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermindApp.swift; sourceTree = "<group>"; };
 		2CF185B12A703C130049DD41 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -36,6 +61,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0B4D7D2A757503005BD5E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B4D8B2A7576F5005BD5E2 /* FontEnum.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C0B4D7E2A7576C3005BD5E2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B4D802A7576DC005BD5E2 /* Montserrat-Bold.ttf */,
+				2C0B4D832A7576DC005BD5E2 /* Montserrat-ExtraLight.ttf */,
+				2C0B4D822A7576DC005BD5E2 /* Montserrat-Light.ttf */,
+				2C0B4D842A7576DC005BD5E2 /* Montserrat-Medium.ttf */,
+				2C0B4D7F2A7576DC005BD5E2 /* Montserrat-Regular.ttf */,
+				2C0B4D812A7576DC005BD5E2 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C0B4D8E2A757E30005BD5E2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B4D8F2A757E3B005BD5E2 /* LoginView.swift */,
+				2C0B4D912A757E4B005BD5E2 /* LoginModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		2C3601332A70409D00A2F5F8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -43,8 +98,12 @@
 				2C3601352A7041B600A2F5F8 /* RootModel.swift */,
 				2CF185B12A703C130049DD41 /* RootView.swift */,
 				2C3601372A7041C300A2F5F8 /* Screens.swift */,
+				2CB4EFBC2A713483002834BD /* Launch Screen.storyboard */,
 				2CF185B32A703C150049DD41 /* Assets.xcassets */,
+				2C0B4D8D2A7577D3005BD5E2 /* Info.plist */,
+				2C0B4D7D2A757503005BD5E2 /* Helpers */,
 				2C3601392A7042D400A2F5F8 /* Components */,
+				2C0B4D7E2A7576C3005BD5E2 /* Fonts */,
 				2CF185B52A703C150049DD41 /* Preview Content */,
 			);
 			path = Common;
@@ -53,6 +112,7 @@
 		2C3601342A7040AA00A2F5F8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2C0B4D8E2A757E30005BD5E2 /* Login */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -60,6 +120,8 @@
 		2C3601392A7042D400A2F5F8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2C0B4D932A757ECA005BD5E2 /* Button_Yellow.swift */,
+				2C69B7CE2A75826E000224D9 /* TF_Login.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -155,7 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0B4D882A7576DC005BD5E2 /* Montserrat-Light.ttf in Resources */,
+				2C0B4D872A7576DC005BD5E2 /* Montserrat-SemiBold.ttf in Resources */,
+				2C0B4D862A7576DC005BD5E2 /* Montserrat-Bold.ttf in Resources */,
+				2C0B4D852A7576DC005BD5E2 /* Montserrat-Regular.ttf in Resources */,
+				2CB4EFBD2A713483002834BD /* Launch Screen.storyboard in Resources */,
+				2C0B4D892A7576DC005BD5E2 /* Montserrat-ExtraLight.ttf in Resources */,
 				2CF185B72A703C150049DD41 /* Preview Assets.xcassets in Resources */,
+				2C0B4D8A2A7576DC005BD5E2 /* Montserrat-Medium.ttf in Resources */,
 				2CF185B42A703C150049DD41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,8 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0B4D902A757E3B005BD5E2 /* LoginView.swift in Sources */,
+				2C0B4D922A757E4B005BD5E2 /* LoginModel.swift in Sources */,
 				2C3601362A7041B600A2F5F8 /* RootModel.swift in Sources */,
+				2C69B7CF2A75826E000224D9 /* TF_Login.swift in Sources */,
+				2C0B4D8C2A7576F5005BD5E2 /* FontEnum.swift in Sources */,
 				2CF185B22A703C130049DD41 /* RootView.swift in Sources */,
+				2C0B4D942A757ECA005BD5E2 /* Button_Yellow.swift in Sources */,
 				2CF185B02A703C130049DD41 /* NevermindApp.swift in Sources */,
 				2C3601382A7041C300A2F5F8 /* Screens.swift in Sources */,
 			);
@@ -302,11 +376,14 @@
 				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nevermind/Common/info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,11 +408,14 @@
 				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nevermind/Common/info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
