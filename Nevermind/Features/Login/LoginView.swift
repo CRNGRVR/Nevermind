@@ -15,6 +15,10 @@ struct LoginView: View {
     var body: some View {
         ZStack {
             Color("Purple")
+                .ignoresSafeArea(.all)
+                .onTapGesture {
+                    hideKeyboard()
+                }
             
             VStack(spacing: 0) {
                 HStack {
@@ -44,7 +48,6 @@ struct LoginView: View {
                 Spacer()
             }
         }
-        .ignoresSafeArea(.all)
     }
 }
 

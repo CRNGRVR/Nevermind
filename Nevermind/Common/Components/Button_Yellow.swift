@@ -17,18 +17,20 @@ struct Button_Yellow: View {
     var actionIfActive: () -> Void
     
     var body: some View {
-        ZStack {
-            Color("Yellow")
-                .opacity(active ? 1 : 0.5)
-                .cornerRadius(5)
-            
-            Text(title)
-                .foregroundColor(.black)
-                .font(.custom(Montserrat.medium.rawValue, size: 16))
-                .padding(.horizontal, 30)
-                .padding(.vertical, 10)
-        }
-        .fixedSize()
+        Button(action: { onTap() }, label: {
+            ZStack {
+                Color("Yellow")
+                    .opacity(active ? 1 : 0.5)
+                    .cornerRadius(5)
+                
+                Text(title)
+                    .foregroundColor(.black)
+                    .font(.custom(Montserrat.medium.rawValue, size: 16))
+                    .padding(.horizontal, 30)
+                    .padding(.vertical, 10)
+            }
+            .fixedSize()
+        })
     }
     
     func onTap() {

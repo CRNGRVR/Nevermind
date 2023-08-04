@@ -20,11 +20,18 @@
 		2C3601362A7041B600A2F5F8 /* RootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3601352A7041B600A2F5F8 /* RootModel.swift */; };
 		2C3601382A7041C300A2F5F8 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3601372A7041C300A2F5F8 /* Screens.swift */; };
 		2C69B7CF2A75826E000224D9 /* TF_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69B7CE2A75826E000224D9 /* TF_Login.swift */; };
+		2C8C65A22A7D19AC00FF7B84 /* VerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C65A12A7D19AC00FF7B84 /* VerifyModel.swift */; };
+		2C8C65A42A7D19B500FF7B84 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C65A32A7D19B500FF7B84 /* VerifyView.swift */; };
+		2C9F3FAB2A7656B90050313D /* SupabaseCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F3FAA2A7656B90050313D /* SupabaseCore.swift */; };
+		2C9F3FAE2A7657950050313D /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9F3FAD2A7657950050313D /* Supabase */; };
+		2C9F3FB12A765DC80050313D /* users_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F3FB02A765DC80050313D /* users_data.swift */; };
 		2CB4EFBD2A713483002834BD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4EFBC2A713483002834BD /* Launch Screen.storyboard */; };
+		2CCA55192A7D66AF0007A9F9 /* hideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA55182A7D66AE0007A9F9 /* hideKeyboard.swift */; };
 		2CF185B02A703C130049DD41 /* NevermindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185AF2A703C130049DD41 /* NevermindApp.swift */; };
 		2CF185B22A703C130049DD41 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF185B12A703C130049DD41 /* RootView.swift */; };
 		2CF185B42A703C150049DD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF185B32A703C150049DD41 /* Assets.xcassets */; };
 		2CF185B72A703C150049DD41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF185B62A703C150049DD41 /* Preview Assets.xcassets */; };
+		717520304B0B53B9469A8B0A /* Pods_Nevermind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2487BE392F168D1333E0ED7 /* Pods_Nevermind.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,12 +49,20 @@
 		2C3601352A7041B600A2F5F8 /* RootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModel.swift; sourceTree = "<group>"; };
 		2C3601372A7041C300A2F5F8 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
 		2C69B7CE2A75826E000224D9 /* TF_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TF_Login.swift; sourceTree = "<group>"; };
+		2C8C65A12A7D19AC00FF7B84 /* VerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyModel.swift; sourceTree = "<group>"; };
+		2C8C65A32A7D19B500FF7B84 /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		2C9F3FAA2A7656B90050313D /* SupabaseCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseCore.swift; sourceTree = "<group>"; };
+		2C9F3FB02A765DC80050313D /* users_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users_data.swift; sourceTree = "<group>"; };
 		2CB4EFBC2A713483002834BD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2CCA55182A7D66AE0007A9F9 /* hideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hideKeyboard.swift; sourceTree = "<group>"; };
 		2CF185AC2A703C130049DD41 /* Nevermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nevermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF185AF2A703C130049DD41 /* NevermindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermindApp.swift; sourceTree = "<group>"; };
 		2CF185B12A703C130049DD41 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		2CF185B32A703C150049DD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF185B62A703C150049DD41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D305E778ACBEA9B1DC9A4A5 /* Pods-Nevermind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nevermind.debug.xcconfig"; path = "Target Support Files/Pods-Nevermind/Pods-Nevermind.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2EAFBEAA7DF5AFDE9E611B /* Pods-Nevermind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nevermind.release.xcconfig"; path = "Target Support Files/Pods-Nevermind/Pods-Nevermind.release.xcconfig"; sourceTree = "<group>"; };
+		D2487BE392F168D1333E0ED7 /* Pods_Nevermind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nevermind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,16 +70,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9F3FAE2A7657950050313D /* Supabase in Frameworks */,
+				717520304B0B53B9469A8B0A /* Pods_Nevermind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1087A23C714452196559B119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D305E778ACBEA9B1DC9A4A5 /* Pods-Nevermind.debug.xcconfig */,
+				6D2EAFBEAA7DF5AFDE9E611B /* Pods-Nevermind.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2C0B4D7D2A757503005BD5E2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				2C0B4D8B2A7576F5005BD5E2 /* FontEnum.swift */,
+				2CCA55182A7D66AE0007A9F9 /* hideKeyboard.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -101,6 +128,7 @@
 				2CB4EFBC2A713483002834BD /* Launch Screen.storyboard */,
 				2CF185B32A703C150049DD41 /* Assets.xcassets */,
 				2C0B4D8D2A7577D3005BD5E2 /* Info.plist */,
+				2C9F3FAF2A765DB30050313D /* SupabaseCore */,
 				2C0B4D7D2A757503005BD5E2 /* Helpers */,
 				2C3601392A7042D400A2F5F8 /* Components */,
 				2C0B4D7E2A7576C3005BD5E2 /* Fonts */,
@@ -112,6 +140,7 @@
 		2C3601342A7040AA00A2F5F8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2C8C65A02A7D199A00FF7B84 /* Verify */,
 				2C0B4D8E2A757E30005BD5E2 /* Login */,
 			);
 			path = Features;
@@ -126,11 +155,31 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		2C8C65A02A7D199A00FF7B84 /* Verify */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C65A32A7D19B500FF7B84 /* VerifyView.swift */,
+				2C8C65A12A7D19AC00FF7B84 /* VerifyModel.swift */,
+			);
+			path = Verify;
+			sourceTree = "<group>";
+		};
+		2C9F3FAF2A765DB30050313D /* SupabaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				2C9F3FAA2A7656B90050313D /* SupabaseCore.swift */,
+				2C9F3FB02A765DC80050313D /* users_data.swift */,
+			);
+			path = SupabaseCore;
+			sourceTree = "<group>";
+		};
 		2CF185A32A703C130049DD41 = {
 			isa = PBXGroup;
 			children = (
 				2CF185AE2A703C130049DD41 /* Nevermind */,
 				2CF185AD2A703C130049DD41 /* Products */,
+				1087A23C714452196559B119 /* Pods */,
+				6FD06F257B6EA7134405C19A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +208,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6FD06F257B6EA7134405C19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2487BE392F168D1333E0ED7 /* Pods_Nevermind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,15 +223,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF185BA2A703C150049DD41 /* Build configuration list for PBXNativeTarget "Nevermind" */;
 			buildPhases = (
+				20714061298CD4F09E32A0F0 /* [CP] Check Pods Manifest.lock */,
 				2CF185A82A703C130049DD41 /* Sources */,
 				2CF185A92A703C130049DD41 /* Frameworks */,
 				2CF185AA2A703C130049DD41 /* Resources */,
+				4F8E811E904B6FEA845D832E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Nevermind;
+			packageProductDependencies = (
+				2C9F3FAD2A7657950050313D /* Supabase */,
+			);
 			productName = Nevermind;
 			productReference = 2CF185AC2A703C130049DD41 /* Nevermind.app */;
 			productType = "com.apple.product-type.application";
@@ -203,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 2CF185A32A703C130049DD41;
+			packageReferences = (
+				2C9F3FAC2A7657950050313D /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 2CF185AD2A703C130049DD41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,12 +296,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20714061298CD4F09E32A0F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nevermind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8E811E904B6FEA845D832E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nevermind/Pods-Nevermind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nevermind/Pods-Nevermind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nevermind/Pods-Nevermind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CF185A82A703C130049DD41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8C65A42A7D19B500FF7B84 /* VerifyView.swift in Sources */,
+				2C9F3FAB2A7656B90050313D /* SupabaseCore.swift in Sources */,
 				2C0B4D902A757E3B005BD5E2 /* LoginView.swift in Sources */,
+				2C8C65A22A7D19AC00FF7B84 /* VerifyModel.swift in Sources */,
 				2C0B4D922A757E4B005BD5E2 /* LoginModel.swift in Sources */,
 				2C3601362A7041B600A2F5F8 /* RootModel.swift in Sources */,
 				2C69B7CF2A75826E000224D9 /* TF_Login.swift in Sources */,
@@ -245,6 +355,8 @@
 				2C0B4D942A757ECA005BD5E2 /* Button_Yellow.swift in Sources */,
 				2CF185B02A703C130049DD41 /* NevermindApp.swift in Sources */,
 				2C3601382A7041C300A2F5F8 /* Screens.swift in Sources */,
+				2CCA55192A7D66AF0007A9F9 /* hideKeyboard.swift in Sources */,
+				2C9F3FB12A765DC80050313D /* users_data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +479,7 @@
 		};
 		2CF185BB2A703C150049DD41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D305E778ACBEA9B1DC9A4A5 /* Pods-Nevermind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +512,7 @@
 		};
 		2CF185BC2A703C150049DD41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2EAFBEAA7DF5AFDE9E611B /* Pods-Nevermind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +565,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C9F3FAC2A7657950050313D /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C9F3FAD2A7657950050313D /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C9F3FAC2A7657950050313D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2CF185A42A703C130049DD41 /* Project object */;
 }

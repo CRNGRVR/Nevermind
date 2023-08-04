@@ -14,6 +14,7 @@ class LoginModel: ObservableObject {
     //  Ссылка на корневое представление для переключения экранов
     @Published var rootModel: RootModel
     
+    //  Поле ввода
     @Published var email: String = ""
     
     init(rootModel: RootModel) {
@@ -21,5 +22,7 @@ class LoginModel: ObservableObject {
     }
     
     //  Действие кнопки "Продолжить"
-    func next() {}
+    func next() {
+        rootModel.current = .verify
+    }
 }

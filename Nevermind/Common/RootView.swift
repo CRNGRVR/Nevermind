@@ -14,7 +14,11 @@ struct RootView: View {
     
     var body: some View {
         switch rootModel.current {
-        case .login: EmptyView()
+        case .login: LoginView(r: rootModel)
+        case .verify: VerifyView(r: rootModel)
+            
+        //  Заглушка
+        default: EmptyView()
         }
     }
 }

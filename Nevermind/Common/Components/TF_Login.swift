@@ -31,7 +31,6 @@ struct LoginTF_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color(.purple)
-            
             TF_Login(text: .constant("gernjkgrgenjkgrgegeg"), title: "example@mail.com")
         }
     }

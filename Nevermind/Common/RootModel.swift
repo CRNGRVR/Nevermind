@@ -13,6 +13,5 @@ import Foundation
 
 class RootModel: ObservableObject {
     //  Текущий экран корневого представления
-    var current: Screens = .login
-    
+    @Published var current: Screens = .login
 }

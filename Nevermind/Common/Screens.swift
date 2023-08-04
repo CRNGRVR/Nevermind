@@ -12,4 +12,8 @@ import Foundation
 
 enum Screens {
     case login
+    case verify
+    case setProfileData
+    case go
+    case mainRoot
 }
